@@ -5,7 +5,7 @@
     grid-template-rows: 50px 25px 25px 40px 30px 50px 30px 50px 50px 50px 10px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
 }
 body{
-    background-color: rgba(226, 227, 227, 0.55);
+    background-image:url("R.jpg");
 }
 .dashboard{
     grid-row-start: 1;
@@ -200,7 +200,7 @@ body{
     grid-template-rows: 50px 25px 25px 40px 30px 50px 30px 50px 50px 50px 10px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
 }
 body{
-    background-color: rgba(226, 227, 227, 0.55);
+    background-image:url("R.jpg");
 }
 .dashboard{
     grid-row-start: 1;
@@ -391,10 +391,10 @@ body{
 .container{
     display:grid;
     grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
-    grid-template-rows: 50px 25px 25px 40px 30px 50px 30px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+    grid-template-rows: 50px 25px 25px 40px 30px 50px 30px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
 }
 body{
-    background-color: rgba(226, 227, 227, 0.55);
+    background-image:url("R.jpg");
 }
 .headers{
     top:0;
