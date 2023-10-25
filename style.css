@@ -25,7 +25,7 @@ body{
     margin-top:360px;
     grid-column-start: 1;
     background-color: none;    
-    margin-left:200px;
+    margin-left:250px;
 }
 .header{
     grid-row-start: 2;
@@ -78,7 +78,7 @@ body{
 }
 .depo{
     margin-top:530px; 
-    margin-left:180px;
+    margin-left:130px;
 }   
 .box3{
     margin-top: 10px;
@@ -148,41 +148,56 @@ body{
 .request:hover{
     transform: translatey(10px)
 }
+.topupp{
+    color:white;
+    grid-row-start: 24;
+    grid-column-start:4;
+    grid-column-end: 7 ;
+    border-radius:20px;
+    text-align:center;
+    padding-top:15px;
+    background-color: darkorange;
+}
 .contactus{
-    grid-row-start: 23;
-    grid-row-end: 29;
+    grid-row-start: 26;
+    grid-row-end: 31;
     grid-column-start: 1;
     grid-column-end: 26;
     color:white;
     padding-left:10px;
-    font-size:40px;
     padding-top:10px;
     background-color: darkorange;
 }
+.head{
+    font-size:40px;
+}
 .mail{
-    grid-row-start: 23;
-    grid-row-end: 23;
-    margin-top: 80px;
+    grid-row-start: 15;
+    grid-row-end: 15;
+    padding-bottom: 20px;
     grid-column-start: 1;
     margin-left:10px;
     grid-column-end: 26;
     color:white;   
+    font-size: 20px;
 }
-.number{
-    grid-row-start: 21;
-    grid-row-end: 21;
-    margin-top: 230px;
+.phonenumber{
+    grid-row-start: 15;
+    grid-row-end: 15;
+    padding-bottom: 30px;
     grid-column-start: 1;
     margin-left:10px;
     grid-column-end: 26;
     color:white;   
+    font-size: 20px;
 }
+
 }
 @media only screen and (min-width:641px){
 .container{
     display:grid;
     grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
-    grid-template-rows: 50px 25px 25px 40px 30px 50px 30px 50px 50px 50px 10px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+    grid-template-rows: 50px 25px 25px 40px 30px 50px 30px 50px 50px 50px 10px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
 }
 body{
     background-color: rgba(226, 227, 227, 0.55);
@@ -328,41 +343,55 @@ body{
 .request:hover{
     transform: translatey(10px)
 }
+.topupp{
+    color:white;
+    grid-row-start: 24;
+    grid-column-start:6;
+    grid-column-end: 9;
+    border-radius:20px;
+    text-align:center;
+    padding-top:15px;
+    background-color: darkorange;
+}
 .contactus{
-    grid-row-start: 23;
-    grid-row-end: 29;
+    grid-row-start: 26;
+    grid-row-end: 31;
     grid-column-start: 1;
     grid-column-end: 26;
     color:white;
     padding-left:10px;
-    font-size:40px;
     padding-top:10px;
     background-color: darkorange;
 }
-.mail{
-    grid-row-start: 23;
-    grid-row-end: 23;
-    margin-top: 80px;
-    grid-column-start: 1;
-    margin-left:10px;
-    grid-column-end: 26;
-    color:white;   
+.head{
+    font-size:40px;
 }
-.number{
-    grid-row-start: 21;
-    grid-row-end: 21;
-    margin-top: 230px;
+.mail{
+    grid-row-start: 15;
+    grid-row-end: 15;
+    padding-bottom: 20px;
     grid-column-start: 1;
     margin-left:10px;
     grid-column-end: 26;
     color:white;   
+    font-size: 20px;
+}
+.phonenumber{
+    grid-row-start: 15;
+    grid-row-end: 15;
+    padding-bottom: 30px;
+    grid-column-start: 1;
+    margin-left:10px;
+    grid-column-end: 26;
+    color:white;   
+    font-size: 20px;
 }
 }
 @media only screen and (min-width:1200px){
 .container{
     display:grid;
     grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
-    grid-template-rows: 50px 25px 25px 40px 30px 50px 30px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+    grid-template-rows: 50px 25px 25px 40px 30px 50px 30px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
 }
 body{
     background-color: rgba(226, 227, 227, 0.55);
@@ -507,6 +536,16 @@ body{
 .request:hover{
     transform: translatey(10px)
 }
+.topupp{
+    color:white;
+    grid-row-start: 12;
+    grid-column-start:11;
+    grid-column-end: 15;
+    border-radius:20px;
+    text-align:center;
+    padding-top:15px;
+    background-color: darkorange;
+}
 .contactus{
     grid-row-start: 14;
     grid-row-end: 19;
@@ -514,26 +553,31 @@ body{
     grid-column-end: 26;
     color:white;
     padding-left:10px;
-    font-size:40px;
     padding-top:10px;
     background-color: darkorange;
 }
+.head{
+    font-size:40px;
+}
 .mail{
-    grid-row-start: 16;
-    grid-row-end: 16;
+    grid-row-start: 15;
+    grid-row-end: 15;
     padding-bottom: 20px;
     grid-column-start: 1;
     margin-left:10px;
     grid-column-end: 26;
     color:white;   
+    font-size: 20px;
 }
-.number{
-    grid-row-start: 17;
-    grid-row-end: 17;
-    padding-bottom: 20px;
+.phonenumber{
+    grid-row-start: 15;
+    grid-row-end: 15;
+    padding-bottom: 30px;
     grid-column-start: 1;
     margin-left:10px;
     grid-column-end: 26;
     color:white;   
+    font-size: 20px;
 }
+
 }
